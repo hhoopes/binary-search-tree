@@ -8,7 +8,7 @@ class NodeTest < Minitest::Test
     @node = Node.new("k")
   end
 
-  def test_can_create_instance
+  def test_initialize_creates_instance_of_node
     assert_instance_of Node, @node
   end
 
